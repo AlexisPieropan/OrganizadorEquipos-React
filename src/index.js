@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from 'react'; //libreria principal de react
+import ReactDOM from 'react-dom/client'; //trabajar con el DOM y react
 import './index.css';
-import App from './App';
+import App from './App'; 
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

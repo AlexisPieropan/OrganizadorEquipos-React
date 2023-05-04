@@ -1,0 +1,31 @@
+.equipo{
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box; /*se ajusta al 100% sin pasarse*/
+    text-align: center;
+    font-size: 32px;
+    position: relative;
+}
+
+/*clase para el input cambiar el color de los equipos*/
+.input-color{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.equipo h3{
+    color: #212121;
+    font-weight: 400;
+    border-bottom: 4px solid ;
+    display: inline-block; /*solo para que la raya ocupe el ancho del texto*/
+    padding-bottom: 8px;
+}
+
+/*clase para acomodar las cards*/
+.colaboradores{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; /*si se ocupa todo el ancho disponible lo acomoda abajo */
+}
+
